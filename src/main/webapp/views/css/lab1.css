@@ -1,0 +1,17 @@
+
+
+
+/* Start Main Rules*/
+.center{
+    text-align: center;
+}
+.center-block{
+    width: 400px;
+    margin: auto;
+}
+/* End Main Rules */
+
+form{
+    border: 1px solid #0097ff;
+    padding: 20px;
+}

@@ -1,0 +1,14 @@
+/* Start Main Rules*/
+.center{
+    text-align: center;
+}
+.center-block{
+    width: 400px;
+    margin: auto;
+}
+/* End Main Rules */
+
+#msgbox > div{
+    background: #ff3c2d;
+    color: white;
+}

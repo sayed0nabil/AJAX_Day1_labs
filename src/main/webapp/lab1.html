@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="./views/css/libs/bootstrap.min.css" />
+    <script src="./views/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="./views/js/libs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./views/css/lab1.css" />
+</head>
+<body>
+    <form name="lab1" class="center-block mt-5">
+        <div class="form-row align-items-center">
+            <div class="col-auto">
+                <label class="sr-only" for="inlineFormInput" >Name</label>
+                <input type="text" class="form-control mb-2" id="inlineFormInput" disabled="true" name="content" placeholder="Will Has Content Of File">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary mb-2" onclick="submitform1()">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <form name="lab2" class="ml-5 w-50 mt-5 float-left">
+        <div class="row">
+            <div class="col">
+                <label>Username</label>
+                <input type="text" class="form-control"  placeholder="Enter username" id="username">
+            </div>
+            <div class="col">
+                <label id="result" style="padding: 30px"></label>
+            </div>
+        </div>
+        <div class="w-50">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="button" class="btn btn-primary mt-3" onclick="submitform2()">Submit</button>
+    </form>
+    <div class="w-25 float-left mt-5 ml-5" id="table-container">
+
+    </div>
+
+
+    <script src="./views/js/lab1.js"></script>
+</body>
+</html>
